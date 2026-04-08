@@ -1,0 +1,41 @@
+no_resolve: true
+domain_set:
+  - instant.arubanetworks.com
+  - setmeup.arubanetworks.com
+  - router.asus.com
+  - www.asusrouter.com
+domain_suffix_set:
+  - ip6-localhost
+  - ip6-loopback
+  - internal
+  - lan
+  - local
+  - localhost
+  - hiwifi.com
+  - leike.cc
+  - miwifi.com
+  - my.router
+  - p.to
+  - peiluyou.com
+  - phicomm.me
+  - router.ctc
+  - routerlogin.com
+  - tendawifi.com
+  - zte.home
+  - tplogin.cn
+  - wifi.cmcc  
+ip_cidr_set:
+  - 0.0.0.0/8,no-resolve
+  - 10.0.0.0/8,no-resolve
+  - 100.64.0.0/10,no-resolve
+  - 127.0.0.0/8,no-resolve
+  - 169.254.0.0/16,no-resolve
+  - 172.16.0.0/12,no-resolve
+  - 192.168.0.0/16,no-resolve
+  - 198.18.0.0/16,no-resolve
+  - 224.0.0.0/4,no-resolve
+ip_cidr6_set:
+  - ::1/128,no-resolve
+  - fc00::/7,no-resolve
+  - fe80::/10,no-resolve
+  - fd00::/8,no-resolve
